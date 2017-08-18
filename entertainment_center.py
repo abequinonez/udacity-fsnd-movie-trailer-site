@@ -1,7 +1,8 @@
 import media
 import fresh_tomatoes
 
-# The following 6 movies are instances of the Movie class
+# The following 6 movies are instances of the Movie class. Each movie
+# object is created with unique arguments.
 blade_runner = media.Movie("Blade Runner",
 							# Poster image source: https://madspoon.net/images/filmovi/blade-runner.jpeg
 							"img/bladerunner.jpeg",
