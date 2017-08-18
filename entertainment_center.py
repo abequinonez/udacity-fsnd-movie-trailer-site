@@ -1,3 +1,7 @@
+# coding=utf-8
+# Encoding declaration learned from this Stack Overflow discussion:
+# https://stackoverflow.com/questions/26899235/python-nltk-syntaxerror-non-ascii-character-xc3-in-file-senitment-analysis
+
 import media
 import fresh_tomatoes
 
@@ -30,14 +34,14 @@ kill_bill = media.Movie("Kill Bill",
 						"Martial arts action",
 						media.Movie.VALID_RATINGS[3])
 
-ghost_in_the_shell = media.Movie("Ghost in the Shell",
-								# Poster image source: https://68.media.tumblr.com/bbf0183b4e3d85f806930d0dbc4dc756/tumblr_n9c3rc55Bp1qbluruo2_r1_1280.jpg
-								"img/ghost.jpg",
-								"https://www.youtube.com/watch?v=Dfqnbp8AJ9U",
-								1995,
-								"Mamoru Oshii",
-								"Science fiction",
-								media.Movie.VALID_RATINGS[3])
+the_revenant = media.Movie("The Revenant",
+							# Poster image source: http://s3.foxmovies.com/foxmovies/production/films/96/images/posters/455-film-page-large.jpg
+							"img/revenant.jpg",
+							"https://www.youtube.com/watch?v=LoebZZ8K5N0",
+							2015,
+							"Alejandro González Iñárritu",
+							"Western",
+							media.Movie.VALID_RATINGS[3])
 
 akira = media.Movie("Akira",
 					# Poster image source: https://mindreels.files.wordpress.com/2013/07/akira.jpg
@@ -58,7 +62,7 @@ spirited_away = media.Movie("Spirited Away",
 							media.Movie.VALID_RATINGS[1])
 
 # List of movies containing the 6 movies above
-movies = [blade_runner, robocop, kill_bill, ghost_in_the_shell, akira, spirited_away]
+movies = [blade_runner, robocop, kill_bill, the_revenant, akira, spirited_away]
 
 # Call the open_movies_page function with the movies list as an argument
 fresh_tomatoes.open_movies_page(movies)
