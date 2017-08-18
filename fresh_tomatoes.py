@@ -14,11 +14,13 @@ main_page_head = '''
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:400,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            font-family: "Open Sans", sans-serif;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -55,6 +57,18 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+        .navbar-brand {
+            font-family: "Amatic SC", cursive;
+            color: #fff !important;
+            font-size: 28px;
+            letter-spacing: 2px;
+        }
+        .movie-title {
+            font-family: "Amatic SC", cursive;
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 2px;
         }
         .movie-info {
             text-align: center;
@@ -113,7 +127,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Fresh Tomatoes!</a>
           </div>
         </div>
       </div>
@@ -129,7 +143,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
-    <h2>{movie_title}</h2>
+    <h2 class="movie-title">{movie_title}</h2>
     <p class="movie-info"><span class="info-title">Release date:</span> {release_date}</p>
     <p class="movie-info"><span class="info-title">Director:</span> {director}</p>
     <p class="movie-info"><span class="info-title">Genre:</span> {genre}</p>
