@@ -1,6 +1,8 @@
 # Udacity Full Stack Movie Trailer Website
 
-This project, a dynamically generated movie trailer website, was developed as part of the Udacity Full Stack Web Developer Nanodegree Program. The project guidelines called for the use of object-oriented Python to create a movie class complete with a constructor for instantiating a series of movie objects. At runtime, an HTML page is created and populated with information from the movie objects.
+This project, a dynamically generated movie trailer website, was developed as part of the Udacity Full Stack Web Developer Nanodegree Program. The project guidelines called for the use of object-oriented Python to create a movie class (complete with a constructor) for instantiating a series of movie objects. At runtime, an HTML page is created and populated with information from the movie objects.
+
+Note: this project has been recreated/altered from, and has served as a review for, a project originally created in the Udacity Intro to Programming Nanodegree Program.
 
 ## Requirements
 
