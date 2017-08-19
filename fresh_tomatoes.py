@@ -141,7 +141,8 @@ movie_tile_content = '''
     <p class="movie-info"><span class="info-title">Release date:</span> {release_date}</p>
     <p class="movie-info"><span class="info-title">Director:</span> {director}</p>
     <p class="movie-info"><span class="info-title">Genre:</span> {genre}</p>
-    <p class="movie-info"><span class="info-title">Rating:</span> {rating}</p>
+    <p class="movie-info"><span class="info-title">MPAA rating:</span> {mpaa_rating}</p>
+    <p class="movie-info"><span class="info-title">IMDB rating:</span> {imdb_rating}</p>
 </div>
 '''
 
@@ -166,7 +167,8 @@ def create_movie_tiles_content(movies):
             release_date=movie.release_date,
             director=movie.director,
             genre=movie.genre,
-            rating=movie.rating
+            mpaa_rating=movie.mpaa_rating,
+            imdb_rating=movie.imdb_rating
         )
     return content
 

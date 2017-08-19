@@ -14,7 +14,8 @@ blade_runner = media.Movie("Blade Runner",
 							1982,
 							"Ridley Scott",
 							"Neo-noir science fiction",
-							media.Movie.VALID_RATINGS[3])
+							media.Movie.VALID_RATINGS[3],
+							8.2)
 
 robocop = media.Movie("RoboCop",
 						# Poster image source: https://www.theterminatorfans.com/wp-content/uploads/2013/09/RoboCop-1987-Poster.jpg
@@ -23,7 +24,8 @@ robocop = media.Movie("RoboCop",
 						1987,
 						"Paul Verhoeven",
 						"Cyberpunk action",
-						media.Movie.VALID_RATINGS[3])
+						media.Movie.VALID_RATINGS[3],
+						7.5)
 
 kill_bill = media.Movie("Kill Bill",
 						# Poster image source: https://img.csfd.cz/files/images/user/profile/159/451/159451641_729a41.jpg
@@ -32,7 +34,8 @@ kill_bill = media.Movie("Kill Bill",
 						2003,
 						"Quentin Tarantino",
 						"Martial arts action",
-						media.Movie.VALID_RATINGS[3])
+						media.Movie.VALID_RATINGS[3],
+						8.1)
 
 the_revenant = media.Movie("The Revenant",
 							# Poster image source: http://s3.foxmovies.com/foxmovies/production/films/96/images/posters/455-film-page-large.jpg
@@ -41,7 +44,8 @@ the_revenant = media.Movie("The Revenant",
 							2015,
 							"Alejandro González Iñárritu",
 							"Western",
-							media.Movie.VALID_RATINGS[3])
+							media.Movie.VALID_RATINGS[3],
+							8)
 
 akira = media.Movie("Akira",
 					# Poster image source: https://mindreels.files.wordpress.com/2013/07/akira.jpg
@@ -50,7 +54,8 @@ akira = media.Movie("Akira",
 					1988,
 					"Katsuhiro Otomo",
 					"Science fiction",
-					media.Movie.VALID_RATINGS[3])
+					media.Movie.VALID_RATINGS[3],
+					8.1)
 
 spirited_away = media.Movie("Spirited Away",
 							# Poster image source: http://www.nausicaa.net/miyazaki/sen/poster_images/USA_full.jpg
@@ -59,7 +64,8 @@ spirited_away = media.Movie("Spirited Away",
 							2001,
 							"Hayao Miyazaki",
 							"Fantasy",
-							media.Movie.VALID_RATINGS[1])
+							media.Movie.VALID_RATINGS[1],
+							8.6)
 
 # List of movies containing the 6 movies above
 movies = [blade_runner, robocop, kill_bill, the_revenant, akira, spirited_away]
