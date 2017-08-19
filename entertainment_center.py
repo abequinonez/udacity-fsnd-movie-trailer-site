@@ -1,12 +1,14 @@
 # coding=utf-8
-# Encoding declaration learned from this Stack Overflow discussion:
+# This character encoding declaration was required in order to run
+# the application without any errors. Encoding declaration learned
+# from this Stack Overflow discussion:
 # https://stackoverflow.com/questions/26899235/python-nltk-syntaxerror-non-ascii-character-xc3-in-file-senitment-analysis
 
 import media
 import fresh_tomatoes
 
 # The following 6 movies are instances of the Movie class. Each movie
-# object is created with unique arguments.
+# object is created with unique arguments representing movie information.
 blade_runner = media.Movie("Blade Runner",
 							# Poster image source: https://madspoon.net/images/filmovi/blade-runner.jpeg
 							"img/bladerunner.jpeg",
