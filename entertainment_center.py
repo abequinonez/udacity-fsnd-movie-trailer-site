@@ -72,5 +72,5 @@ spirited_away = media.Movie("Spirited Away",
 # List of movies containing the 6 movies above
 movies = [blade_runner, robocop, kill_bill, the_revenant, akira, spirited_away]
 
-# Call the open_movies_page function with the movies list as an argument
+# Call the open_movies_page() function with the movies list as an argument
 fresh_tomatoes.open_movies_page(movies)
