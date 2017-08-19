@@ -16,7 +16,7 @@ blade_runner = media.Movie("Blade Runner",
 							"Neo-noir science fiction",
 							media.Movie.VALID_RATINGS[3])
 
-robocop = media.Movie("Robocop",
+robocop = media.Movie("RoboCop",
 						# Poster image source: https://www.theterminatorfans.com/wp-content/uploads/2013/09/RoboCop-1987-Poster.jpg
 						"img/robocop.jpg",
 						"https://www.youtube.com/watch?v=qaNRzjGsOeA",
