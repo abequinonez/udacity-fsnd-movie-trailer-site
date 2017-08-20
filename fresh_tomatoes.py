@@ -146,6 +146,7 @@ movie_tile_content = '''
 </div>
 '''
 
+
 # Generates the HTML page content
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
@@ -171,6 +172,7 @@ def create_movie_tiles_content(movies):
             imdb_rating=movie.imdb_rating
         )
     return content
+
 
 # Creates the actual movie trailers HTML file. Takes the movies list as input.
 def open_movies_page(movies):
